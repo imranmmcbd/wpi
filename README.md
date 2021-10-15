@@ -1,1 +1,1 @@
-# wpi
+# Wordpress Statar theme
