@@ -1,7 +1,5 @@
 <?php 
-/*
-Header Area
-*/
+//Header Area
 ?>
 
 <!DOCTYPE html>
