@@ -1,1 +1,1 @@
-# wpi
+# WPI Theme
