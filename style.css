@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /*
 Theme Name: WPI-Theme
 Theme URI: https://alimran.me
@@ -17,4 +15,6 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
 
 WPI is distributed under the terms of the GNU GPL.
 */
-
+body{
+    background: red;
+}
