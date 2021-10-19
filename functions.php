@@ -40,3 +40,6 @@ function imran_customizer_register($wp_customize){
     )));
 }
 add_action('customize_register','imran_customizer_register');
+
+//Menu register
+register_nav_menu('main_menu', __('Main Menu','wpitheme') );

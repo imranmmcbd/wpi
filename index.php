@@ -19,13 +19,7 @@
                 <a href=""><img src="<?php echo get_theme_mod('imran_logo'); ?>"</a>
             </div>
             <div class="col-md-9">
-                <ul id="nav"> 
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Sample</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Privacy</a></li>
-                        <li><a href="">Terms</a></li>
-                </ul>
+                <?php wp_nav_menu(array('theme_location' => 'main_menu', 'menu_id' => 'nav')); ?>
                 </div>
         </div>
     </div>
