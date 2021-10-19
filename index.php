@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <a href=""><img src="<?php echo get-get_theme_mod('imran_logo'); ?>"</a>
+                <a href=""><img src="<?php echo get_theme_mod('imran_logo'); ?>"</a>
             </div>
             <div class="col-md-9">
                 
