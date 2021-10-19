@@ -24,7 +24,7 @@ add_action('wp_enqueue_scripts', 'imran_css_js_file_calling');
 
 //Theme Customize
 function imran_customizer_register($wp_customize){
-    $wp_customize->add_section('imran_header_are', array(
+    
     $wp_customize->add_section('imran_header_area', array(
         'title' =>__('Header Area', 'wpitheme')
     ));
