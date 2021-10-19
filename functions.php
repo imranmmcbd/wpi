@@ -25,6 +25,18 @@ add_action('wp_enqueue_scripts', 'imran_css_js_file_calling');
 //Theme Customize
 function imran_customizer_register($wp_customize){
     $wp_customize->add_section('imran_header_are', array(
+    $wp_customize->add_section('imran_header_area', array(
         'title' =>__('Header Area', 'wpitheme')
     ));
+
+    $wp_customize->add_setting('imran_logo', array(
+        'default' => get_bloginfo('template_directory') .'/img/logo.png',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'imran_logo', array(
+        'Label' => 'Logo upload',
+        'setting' => 'imran_logo',
+        'section' => 'imran_header_area',
+    )));
 }
+add_action('customize_register','imran_customizer_register');

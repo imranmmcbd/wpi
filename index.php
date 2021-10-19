@@ -16,10 +16,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"</a>
+                <a href=""><img src="<?php echo get_theme_mod('imran_logo'); ?>"</a>
             </div>
             <div class="col-md-9">
-                
+                <ul id="nav"> 
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sample</a>
+                            <ul>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Privacy</a></li>
+                                <li><a href="">Terms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Terms</a></li>
+                </ul>
                 </div>
         </div>
     </div>
