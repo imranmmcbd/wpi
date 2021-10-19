@@ -3,5 +3,12 @@ img{
     height: 150px;
 }
 #nav{
-    background-color: cadetblue;
+    
+}
+li{list-style: none;
+    
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
 }
