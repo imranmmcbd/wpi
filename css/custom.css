@@ -1,9 +1,14 @@
 body{
     background-color: cadetblue;
 }
+#header_area{
+    background-color: tan;
 
+}
 .logo{
-    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+    
 }
 img{
     width: 100%;
@@ -11,11 +16,12 @@ img{
 }
 .menu{
     background-color: crimson;
+
 }
 #nav {
     width: 100%;
     background: chocolate;
-    
+    float: left;
     
 }
 #nav li{list-style: none;
