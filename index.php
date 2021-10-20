@@ -15,10 +15,10 @@
 <div id="header_area">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 logo">
                 <a href=""><img src="<?php echo get_theme_mod('imran_logo'); ?>"</a>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 menu">
                 <?php wp_nav_menu(array('theme_location' => 'main_menu', 'menu_id' => 'nav')); ?>
                 </div>
         </div>
