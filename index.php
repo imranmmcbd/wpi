@@ -13,14 +13,14 @@
 <body <?php body_class(); ?>>
     
 <div id="header_area">
-    <div class="container-flex">
+    <div class="container">
         <div class="row">
             <div class="col-md-2 logo">
                 <a href=""><img src="<?php echo get_theme_mod('imran_logo'); ?>"</a>
             </div>
             <div class="col-md-10 menu">
                 <?php wp_nav_menu(array('theme_location' => 'main_menu', 'menu_id' => 'nav')); ?>
-                </div>
+            </div>
         </div>
     </div>
 </div>
